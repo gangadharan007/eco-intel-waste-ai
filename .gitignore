@@ -1,0 +1,12 @@
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# datasets
+dataset/
+datasets/
+
+# OS
+.DS_Store
