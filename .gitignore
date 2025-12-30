@@ -1,12 +1,31 @@
-# python
+# ---- Python / venv ----
 .venv/
 venv/
 __pycache__/
-*.pyc
+*.py[cod]
 
-# datasets
+# ---- Env / secrets ----
+.env
+.env.*
+
+# ---- Datasets / ML artifacts ----
 dataset/
 datasets/
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pkl
+*.joblib
 
-# OS
+# ---- Node (if any) ----
+node_modules/
+dist/
+build/
+.coverage/
+
+# ---- OS / editor ----
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
